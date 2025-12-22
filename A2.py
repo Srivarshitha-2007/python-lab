@@ -1,3 +1,5 @@
+#24331A05H2
+#array() is used
 import numpy as np
 lst=[1,3,5,2,9]
 print(lst)
