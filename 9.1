@@ -1,0 +1,17 @@
+with open("demo","w+") as d:
+    d.write("hello world!\n")
+    d.writelines("HERE WE ARE USING THE IDLE FOR PYTHON LAB\nThis is our first experience with FILES \n")
+    d.seek(0)
+    temp=d.read()
+    print(temp)
+with open("demo","r") as d_read:
+    print(d_read.readline())
+    print(d_read.readlines())
+
+
+
+
+
+
+
+
